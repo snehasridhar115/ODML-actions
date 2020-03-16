@@ -22,13 +22,13 @@ class Login extends React.Component {
   }
 
 handleChange = (event) => {
-	event.preventDefault();
+	// event.preventDefault();
     	const { name, value } = event.target;
 	console.log(name);
 	this.setState({[name]: value});
 }
 handleSubmit = (event) =>{
-	event.preventDefault();
+	// event.preventDefault();
 	var opts={
     	"id":this.state.UserName,
     	"passwd":this.state.Password,
