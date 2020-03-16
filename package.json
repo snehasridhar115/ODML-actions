@@ -31,10 +31,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/snehasridhar115/ODML-actions.git"
   }
   "devDependencies": {
     "enzyme": "^3.11.0",
