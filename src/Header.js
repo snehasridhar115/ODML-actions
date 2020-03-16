@@ -4,7 +4,7 @@ import './Styles/Header.css';
 function Header() {
     return (
         <div class="Header">
-            <h1 class="Heading">OD/ML Management System</h1>
+            <h1 class="Heading">Leave Management System</h1>
         </div>
     );
 }
