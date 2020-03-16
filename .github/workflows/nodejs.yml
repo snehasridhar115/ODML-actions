@@ -35,5 +35,4 @@ jobs:
     - name: publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.personal_access_token }}
-      run: |
-        npm run deploy
+      run: npm run deploy
